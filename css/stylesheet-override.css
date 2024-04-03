@@ -6,6 +6,10 @@
   font-display: swap;
 }
 
+.bg-custom {
+  background-color: bisque !important;
+}
+
 header {
   width: 100%;
   background-color: black;
@@ -104,4 +108,50 @@ header {
   width: 100%;
   flex-grow: 1;
   margin-bottom: 3em;
+}
+
+.separation_om_oss {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  background-color: bisque;
+  border-radius: 8px;
+  width: 100%;
+  flex-grow: 1;
+  margin-bottom: 3em;
+}
+
+.foretagpicture {
+  margin-bottom: 5em;
+}
+
+.fonts {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.span om_oss_info {
+  font-size: 56px;
+}
+
+.profil {
+  border: 2px solid bisque;
+  border-radius: 8px;
+  flex: 1;
+  text-align: left;
+  height: 128px;
+}
+
+.container_om_oss {
+  display: flex;
+}
+
+.om_oss_item {
+  flex: 1;
+  padding: 50px;
+}
+
+.card {
+  border: none;
+  width: 250px;
 }
